@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for photobooth app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Isaac Jiang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
