@@ -28,7 +28,7 @@ const CreateOptions: React.FC<CreateOptionsProps> = ({ setCamera, photoOptions, 
             <div className="flex flex-row gap-5 items-center justify-center flex-wrap pl-10 pr-10 mt-10">
                 <div>
                     { /* INPUT FOR TITLE */}
-                    <label htmlFor="title" className="block text-md font-thin text-blue-700">
+                    <label htmlFor="title" className="block text-md font-thin text-blue-500">
                         Enter a name!
                     </label>
                     <input
@@ -41,7 +41,7 @@ const CreateOptions: React.FC<CreateOptionsProps> = ({ setCamera, photoOptions, 
                 </div>
 
                 <div>
-                    <label htmlFor="cut-select" className="block text-md font-thin text-blue-700">
+                    <label htmlFor="cut-select" className="block text-md font-thin text-blue-500">
                         Select Cut (Photo Count)
                     </label>
                     <select
@@ -58,7 +58,7 @@ const CreateOptions: React.FC<CreateOptionsProps> = ({ setCamera, photoOptions, 
                 </div>
 
                 <div>
-                    <label htmlFor="layout-select" className="block text-md font-thin text-blue-700">
+                    <label htmlFor="layout-select" className="block text-md font-thin text-blue-500">
                         Layout Type
                     </label>
                     <select
@@ -73,7 +73,7 @@ const CreateOptions: React.FC<CreateOptionsProps> = ({ setCamera, photoOptions, 
                 </div>
 
                 <div>
-                    <label htmlFor="timer-select" className="block text-md font-thin text-blue-700">
+                    <label htmlFor="timer-select" className="block text-md font-thin text-blue-500">
                         Timer Mode
                     </label>
                     <select

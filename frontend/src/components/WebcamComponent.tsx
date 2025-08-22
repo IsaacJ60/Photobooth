@@ -32,7 +32,7 @@ const WebcamComponent: React.FC = () => {
                             noCameraAccessible: "No camera found",
                             permissionDenied: "Permission denied",
                             switchCamera: "Cannot switch camera",
-                            canvas: "Canvas error"
+                            canvas: "Canvas error",
                         }}
                     />
                 </div>
